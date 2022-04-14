@@ -819,8 +819,8 @@ img::-moz-selection {
 
 
 .location{
-	background: url(../images/background-2.jpg) no-repeat center center fixed;
-		padding:5px 0px 0px;
+	background: url(../images/background-2.jpg) center center fixed;
+	padding:5px 0px 0px; 
 	-webkit-filter: grayscale(100%);
     	filter: grayscale(100%);
 	border-bottom:1px solid #000;
@@ -828,7 +828,8 @@ img::-moz-selection {
 		text-align:center;
 }
 .location iframe{
-	width:100%;
+	padding-bottom: 20px;
+	width: 90%;
 	height:450px;
 	border:0px;
 	pointer-events: none;
