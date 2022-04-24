@@ -245,14 +245,14 @@ aside {
 
 .about{
 	background-color: #25282E;
-		background-image: url(../images/camera-bg.jpg)
+		background-image: url(../images/camera-bg.jpg);
 }
 .about-content {
 	position: relative;
 		display: block;
 	margin: 0 auto;
-		text-align:left;
-    padding-top: 50px;
+		text-align:center;
+    padding-top: 30px;
 	color: #fff;
 }
 .about-content p{
@@ -286,7 +286,8 @@ aside {
 }
 .gallery-box {
 	position: relative;
-		display: block;
+	color: white;
+	display: block;
 	margin: 0 auto;
 		text-align:center;
 }
@@ -821,8 +822,6 @@ img::-moz-selection {
 .location{
 	background: url(../images/background-2.jpg) center center fixed;
 	padding:5px 0px 0px; 
-	-webkit-filter: grayscale(100%);
-    	filter: grayscale(100%);
 	border-bottom:1px solid #000;
 		border-top:1px solid #000;
 		text-align:center;
@@ -838,6 +837,22 @@ img::-moz-selection {
 	color: white;
 	padding-bottom: 12px;
 }
+
+/*---Videos section---*/
+
+.video{
+	
+		text-align:center;
+}
+.video iframe{
+	width: 90%;
+	height:650px;
+
+}
+
+
+
+
 
 /*---Contact section---*/
 
@@ -887,6 +902,8 @@ img::-moz-selection {
 
 .footer {
     background: url(../images/footer-bg.jpg) center center;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(60%);
     color: white;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -901,6 +918,7 @@ img::-moz-selection {
 }
 .footer-logo img {
     display: inline;
+
 }
 .footer-block{
 	text-align:center;
